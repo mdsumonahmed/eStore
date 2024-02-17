@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkidmastercheckn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/custom_checkbox"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="14dp"
+            android:text="Master Kitchen"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btngetVoucherClick"
+            android:text="Get Voucher"
+            android:textColor="#18C5DB"
+            android:gravity="right"
+            android:background="@null"
+            android:textAlignment="gravity"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/line" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/checkid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/custom_checkbox"
+            android:gravity="center"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:paddingTop="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTitleid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13dp"
+                    android:text="Apple MacBook Air "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textViewShortDescid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitleid"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="13.3 Inch, 256 GB" />
+
+            </LinearLayout>
+
+            <!--<TextView-->
+            <!--android:id="@+id/textViewRatingid"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/textViewShortDescid"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_toRightOf="@id/imageView"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:paddingRight="15dp"-->
+            <!--android:text="4.7"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"-->
+            <!--android:textStyle="bold" />-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewPriceid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="INR 56990"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+
+                    >
+
+                    <Button
+                        android:id="@+id/minusbtn"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@null"
+                        android:text="-"
+                        android:textStyle="bold"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/counter_text"
+                        android:layout_width="40dp"
+                        android:layout_height="22dp"
+                        android:background="#DFDDDD"
+                        android:padding="1dp"
+                        android:textAlignment="center"
+                        android:text="0" />
+
+                    <Button
+                        android:id="@+id/plusbtn"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@null"
+                        android:text="+"
+                        android:textStyle="bold"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/fat_line_shape" />
+
+
+</LinearLayout>

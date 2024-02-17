@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#20000000"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountInformationSetting">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:id="@+id/image_view_change_mobile_id"
+                android:src="@drawable/mobile"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text_view_change_mobile"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Change Mobile"
+                android:textSize="15sp"
+                android:layout_toRightOf="@+id/image_view_change_mobile_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/text_arrow_mobile_id"
+                android:text="1314667487"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_arrow_mobile_id"
+                android:layout_marginTop="7dp"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/image_view_change_mobile_id"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:id="@+id/image_view_change_email_id"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/email"
+                android:layout_alignParentLeft="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text_view_change_email"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Change E-mail"
+                android:textSize="15sp"
+                android:layout_toRightOf="@+id/image_view_change_email_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/text_arrow_email_id"
+                android:text="azizul80@gmai.com"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_arrow_email_id"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/image_view_change_email_id"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:id="@+id/image_view_password_id"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/password"
+                android:layout_alignParentLeft="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/text_view_password"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Change Password"
+                android:textSize="15sp"
+                android:layout_toRightOf="@+id/image_view_password_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_arrow_password_id"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/image_view_password_id"/>
+
+    </LinearLayout>
+
+</LinearLayout>

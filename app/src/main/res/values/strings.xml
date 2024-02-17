@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">eStore</string>
+
+    <!--Fuad-->
+    <string name="search_hint">Search</string>
+
+    <!--Mridul-->
+    <string name="craft">Craft</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="delivery_option">Delivery Option</string>
+
+    <string name="bulleted_list">
+        <li>First item</li>\n
+        <li>Second item</li>\n
+        <li>Third item</li>
+    </string>
+
+    <!--Azizul-->
+    <string name="top_text">Ratting and Reviews of Infinx hot S3 x573 - 5.7" -3GB RAM - 32GB ROM - 13MP Camera - Sandstone Black</string>
+    <string name="help_click">Still need <a href="http://www.google.com">help?</a> Click</string>
+    <string-array name="choice_items">
+        <item>বাংলা</item>
+        <item>English</item>
+    </string-array>
+    <!--Sumon-->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="sort_by_array">
+        <item>Popularity</item>
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="user_comment_array">
+        <item>Dear sir did you give cover bag with thid phone...?</item>
+        <item>yes,thank you</item>
+        <item>bro ei phone ta ki aponader stock a ase..?</item>
+        <item>Sorry,this Product is not available at this moment.To get the stock update please add this product in your wishlist.Thank you</item>
+        <item>Today I order this phone. if you will delivery this phone at 7th instant it will be better for me</item>
+        <item>Yes, we try it.thank you</item>
+    </string-array>
+</resources>

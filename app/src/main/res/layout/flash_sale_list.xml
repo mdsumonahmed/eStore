@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:id="@+id/flash_sale_parent_layout">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_margin="5dp"
+        android:src="@drawable/laptop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/image_name"
+            android:layout_marginTop="5dp"
+            android:text="Title"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/price"
+            android:text="৳ "
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/discount"
+            android:text="৳ "
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

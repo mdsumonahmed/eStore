@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#20000000"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountSetting">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view_account_information"
+            android:text="Account Information"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/text_view_account_information"/>
+
+        <TextView
+            android:id="@+id/text_view_address_book"
+            android:text="Address Book"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/text_view_address_book"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_view_message"
+                android:text="Message"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Recieve exclusive offers and personal updates"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:padding="15dp"
+                android:layout_marginTop="5dp"
+                android:background="#ECECEC"
+                android:layout_alignBottom="@+id/text_view_message"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:src="@drawable/bangladesh"
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_country"
+                    android:text="Country"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Bangladesh is current country"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/text_view_account_information"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_view_language"
+                android:text="ভাষা - Language"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/text_view_english_id"
+                android:text="English"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:padding="15dp"
+                android:layout_marginTop="5dp"
+                android:background="#ECECEC"
+                android:layout_alignBottom="@+id/text_view_account_information"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_policies"
+            android:text="Policies"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="15dp"
+            android:layout_marginTop="5dp"
+            android:background="#ECECEC"
+            android:layout_alignBottom="@+id/text_view_account_information"/>
+
+        <TextView
+            android:id="@+id/text_view_help"
+            android:text="Help"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_log_out_id"
+        android:layout_marginTop="10dp"
+        android:text="Logout"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:textColor="#F44336"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

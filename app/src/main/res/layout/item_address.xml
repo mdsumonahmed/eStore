@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_view_location_id"
+                android:src="@drawable/location"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/text_view_name_id"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="bhsghgdhs"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/image_view_location_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/text_view_edit_id"
+                android:layout_alignParentRight="true"
+                android:text="ghsg"
+                android:textColor="#03A9F4"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_view_number_id"
+                android:text="djdddddddddddddddddd"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_home_id"
+                    android:background="@drawable/home_address"
+                    android:text="gffff"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:id="@+id/text_view_child_location_id"
+                    android:layout_marginLeft="5dp"
+                    android:text="ddddddddddddd"
+                    android:textSize="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_view_location_id"
+                android:text="lllllllllllllllllll"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/text_view_ship_bill_id"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/home_address_shiping_billing"
+                android:gravity="center"
+                android:text="skkkkkkkkkkdjjjjjjjjjdjjjjj"
+                android:textSize="10sp"
+                android:textColor="#03A9F4"
+                android:layout_width="200dp"
+                android:layout_height="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#ECECEC"
+        android:layout_alignBottom="@+id/button_id_new_address"/>
+
+</LinearLayout>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeleveryActivity">
+
+    <include layout="@layout/toolbar_main"
+        android:id="@+id/toolba_delevery"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/delivery_option_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordered"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableRight="@drawable/ic_info_black_24dp"
+                    android:padding="15dp"
+                    android:text="Delivery Options"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/border_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/user_address_id"
+                            android:textSize="15dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                            android:drawablePadding="10dp"
+                            android:text="Dhaka,Dhaka North,Banani"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/address_change_button_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+
+                            android:text="CHANGE"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_download_symbol"
+                        android:drawablePadding="10dp"
+                        android:paddingTop="5dp"
+                        android:text="Fullfilled by Graph-ai"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/home_delivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_exchange"
+                            android:drawablePadding="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Home Delivery"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_below="@+id/home_delivery"
+                            android:layout_marginLeft="35dp"
+                            android:text="5-6 days"
+                            android:textColor="#bbb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/delivery_fee"
+                            android:layout_marginLeft="-14dp"
+                            android:layout_marginRight="40dp"
+                            android:clickable="true"
+                            android:text="৳"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/delivery_fee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="40dp"
+                            android:clickable="true"
+                            android:text="45"
+                            android:textStyle="normal" />
+                    </RelativeLayout>
+                    <TextView
+                        android:drawableLeft="@drawable/ic_dollar_symbol"
+                        android:drawablePadding="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="Cash on Delivery Available"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/return_and_warranty"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordered"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableRight="@drawable/ic_info_black_24dp"
+                    android:padding="15dp"
+                    android:text="Return &amp; Warranty"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/border_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <CheckBox
+                        android:text="100% Authentic"
+                        android:textStyle="normal"
+                        android:textColor="#FF757474"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/a"
+                        android:paddingTop="5dp"
+                        android:text="14 days easy returns"
+                        android:textStyle="bold"
+                        android:textColor="#757474"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_below="@id/a"
+                        android:layout_marginLeft="35dp"
+                        android:text="Change of mind is not applicable"
+                        android:textColor="#bbb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:drawableLeft="@drawable/ic_dollar_symbol"
+                        android:drawablePadding="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="1 Year Local Seller Warranty "
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/aaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bordered"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableRight="@drawable/ic_info_black_24dp"
+                    android:padding="15dp"
+                    android:text="Sold By"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/border_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Infinx"
+                        android:textSize="35sp" />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/graph_ai" />
+                </LinearLayout>
+                <!-- ........................................................................................ -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/border_color" />
+                <!-- ........................................................................................ -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="12">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Positive seller Rattings" />
+
+                        <TextView
+                            android:id="@+id/positive_seller_text_percent_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="15dp"
+                            android:text="83%"
+                            android:textSize="40sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/border_color" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ship on Time" />
+
+                        <TextView
+                            android:id="@+id/ship_on_time_text_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="30dp"
+                            android:text="Not enough date "
+                            android:textColor="@color/border_color" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/border_color" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:drawableBottom="@drawable/ic_development"
+                            android:drawablePadding="50dp"
+                            android:padding="10dp"
+                            android:text="Seller Size" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- ........................................................................................ -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/border_color" />
+                <!-- ........................................................................................ -->
+                <TextView
+                    android:clickable="true"
+                    android:id="@+id/go_to_store_button_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="15dp"
+                    android:text="Go to store"
+                    android:textAllCaps="true"
+                    android:textColor="#2196F3"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
